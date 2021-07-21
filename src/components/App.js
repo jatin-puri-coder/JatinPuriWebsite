@@ -4,9 +4,11 @@ import { HashRouter as Router, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='title'>Hi! I'm Jatin Puri. Web Developer + Music Artist</h1>
-    </div>
+    <Router>
+      <div>
+        <Route exact path='/' component={Home} />
+      </div>
+    </Router>
   );
 }
 
