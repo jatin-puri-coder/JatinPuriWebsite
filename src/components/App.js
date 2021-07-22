@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './Home'
 import Nav from './Nav'
+import About from './About'
 import { HashRouter as Router, Route} from 'react-router-dom'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Route path='/' component={Nav} />
       <div>
         <Route exact path='/' component={Home} />
+        <Route exact path='/about' component={About} />
       </div>
     </Router>
   );
