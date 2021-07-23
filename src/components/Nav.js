@@ -8,7 +8,7 @@ function Nav() {
       <NavLink to='/about' className='navbutton'>About</NavLink>
       <NavLink to='/projects' className='navbutton'>Projects</NavLink>
       <NavLink to='music' className='navbutton'>Music</NavLink>
-      <NavLink to='blog' className='lastnavbutton'>Blog</NavLink>
+      <NavLink to='blog' className='navbutton'>Blog</NavLink>
     </div>
 
   )

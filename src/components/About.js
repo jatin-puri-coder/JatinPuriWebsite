@@ -7,7 +7,15 @@ function About() {
         <h3>About</h3>
       </div>
       <div className=' split right'>
-        <p>I’m a highly motivated individual who has a great ability to adapt to new people and environments as well as welcoming new experiences. I am a people-person and I love to meet and interact with individuals from different backgrounds and cultures. I have always had a keen interest in technology and web development. After creating a couple of websites using web builders and knowing nothing about coding to becoming a full stack web developer after 15 weeks is something that I am very proud of. I am very excited and looking forward to continue learning and growing as a developer.</p>
+        <div className="hexagon">
+          <img src='/images/mypic.png' alt='' className='mypic'></img>
+        </div>
+        <div className='intro'>
+          <p className='topline'>I'm Jatin, a web developer and musician living in New Zealand!</p>
+          <p>I am a creative individual with a passion for music and technology and have recently entered the world of web development. I enjoy problem-solving and have a keen eye for aesthetic designs. I work full-stack but I do lean more towards front-end development.</p>
+          <p>If you are interested in collaborating on creating a website or software, please feel free to contact me.</p>
+          <p className='bottomline'>I am available for freelance projects, contract work or full-time employment</p>
+        </div>
       </div>
     </div>
   )
