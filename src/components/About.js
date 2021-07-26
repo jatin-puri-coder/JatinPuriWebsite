@@ -3,10 +3,10 @@ import React from 'react'
 function About() {
   return (
     <div className='about'>
-      <div className='split left'>
+      <div className='vsplit left'>
         <h3>About</h3>
       </div>
-      <div className=' split right'>
+      <div className='vsplit right'>
         <div className="hexagon">
           <img src='/images/mypic.png' alt='' className='mypic'></img>
         </div>

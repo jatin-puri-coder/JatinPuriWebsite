@@ -99,7 +99,7 @@ p {
   padding-left: 1vw;
 }
 
-.split {
+.vsplit {
   margin: auto;
   width: 50%;
   position:absolute;
@@ -148,7 +148,74 @@ p {
   margin-top: -20vw;
   height: auto;
   max-width: 300px
+}
 
+.hsplit {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 30%;
+}
+
+.projtop {
+  top: 0;
+  text-align: center;
+  margin: auto;
+  background-color: teal;
+}
+
+.projbottom {
+  bottom: 0
+}
+
+.projtitle {
+  margin-top: 4vw;
+}
+
+.projnames {
+  text-align: center;
+  font-size: 2vw;
+  text-decoration: underline;
+  color: rgb(148, 34, 19);
+}
+
+.scrolling-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-top: -37vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  border: 3px solid teal;
+  width: 57vw;
+  height: 57vh;
+  margin-right: 2vw;
+}
+
+.projimages {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 2.5vw;
+  float:left;
+  display: block;
+}
+
+.projimagesbanner {
+  max-width: 100%;
+  max-height: 50%;
+  float: left;
+}
+
+.projimagessq {
+  max-width: 100%;
+  max-height: 50%;
+  float: left;
+  /* margin-left: 1vw; */
 }
 
 /* #topnav a.active {
