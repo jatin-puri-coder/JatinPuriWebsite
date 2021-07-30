@@ -262,10 +262,9 @@ p {
   }
 
   .nav {
-    overflow: hidden;
+    overflow: visible;
     position:absolute;
-    bottom:46.3em;
-    margin-top: -5vw;
+    bottom:94vh;
   }
 
   .navbutton {
