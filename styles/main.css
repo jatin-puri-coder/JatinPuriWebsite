@@ -15,7 +15,7 @@ h1 {
   font-size: 3vw;
   }
 
-  h2 {
+h2 {
     color: whitesmoke;
   }
 
@@ -155,7 +155,7 @@ p {
   text-align: center;
   position: absolute;
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 10rem;
   overflow-x: hidden;
 }
 
@@ -190,10 +190,10 @@ p {
 }
 
 .mypic {
-  margin-top: -42vh;
   height: auto;
   max-width: 300px;
   margin-bottom: -2vh;
+  margin-top: -10rem;
 }
 
 .hsplit {
@@ -246,8 +246,8 @@ p {
 .card {
   display: inline-block;
   border: 3px solid teal;
-  width: 57vw;
-  height: 55vh;
+  width: 33rem;
+  height: 30rem;
   margin-right: 2vw;
   overflow-y:auto;
   white-space:pre-wrap;
@@ -273,13 +273,14 @@ p {
 
 .pippinlogo {
   width: 30%;
-  padding-bottom: 10vh;
-  margin-top: -42vh;
+  padding-bottom: 1rem;
+  margin-top: -5rem;
 }
 
 .musicplayer {
-  padding-bottom: 5vh;
-  padding-top: 2vh;
+  /* padding-bottom: 5vh;
+  padding-top: 2vh; */
+  padding: 2rem 1rem 3rem 1rem;
 }
 
 .links {
@@ -329,7 +330,7 @@ p {
     text-align: center;
     position: absolute;
     height: 60%;
-    padding-top: 40vh;
+    padding-top: 8rem;
     overflow-x: hidden;
   }
   
