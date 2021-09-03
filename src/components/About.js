@@ -15,9 +15,9 @@ function About() {
           <p>I am a creative individual with a passion for music and technology and have recently entered the world of web development. I enjoy problem-solving and have a keen eye for aesthetic designs. I work full-stack but I do lean more towards front-end development.</p>
           <p>If you are interested in collaborating on creating a website or software, please feel free to contact me.</p>
           <p className='bottomline'>I am available for freelance projects, contract work or full-time employment</p>
-          <a href='https://www.linkedin.com/in/jatinpuri/' className='links' target='_blank'>LinkedIn</a>
-          <a href='https://github.com/jatin-puri-coder' className='links' target='_blank'>Github</a>
-          <a href="mailto:jatinpuri11@gmail.com" className='links' target='_blank'>Email Me</a>  
+          <a href='https://www.linkedin.com/in/jatinpuri/' className='links' target='_blank' rel="noreferrer">LinkedIn</a>
+          <a href='https://github.com/jatin-puri-coder' className='links' target='_blank' rel="noreferrer">Github</a>
+          <a href="mailto:jatinpuri11@gmail.com" className='links' target='_blank' rel="noreferrer">Email Me</a>  
         </div>
       </div>
     </div>
