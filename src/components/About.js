@@ -7,7 +7,7 @@ function About() {
         <h3 className='left'>About</h3>
       </div>
       <div className='right'>
-        <div className="hexagon">
+        <div>
           <img src='/images/mypic.png' alt='' className='mypic'></img>
         </div>
         <div className='intro'>

@@ -15,7 +15,7 @@ h1 {
   font-size: 3vw;
   }
 
-  h2 {
+h2 {
     color: whitesmoke;
   }
 
@@ -190,10 +190,10 @@ p {
 }
 
 .mypic {
-  margin-top: -42vh;
   height: auto;
   max-width: 300px;
   margin-bottom: -2vh;
+  margin-top: -10rem;
 }
 
 .hsplit {
@@ -330,7 +330,7 @@ p {
     text-align: center;
     position: absolute;
     height: 60%;
-    padding-top: 40vh;
+    padding-top: 8rem;
     overflow-x: hidden;
   }
   
