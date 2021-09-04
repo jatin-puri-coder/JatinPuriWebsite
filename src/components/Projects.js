@@ -8,7 +8,7 @@ function Projects() {
       <div className='left'>
         <h3 className='projtitle'>Projects</h3>
       </div>
-      <div className='right'>
+      <div className='rightproj'>
         <Carousel plugins={[
           'centered',
           'arrows',
